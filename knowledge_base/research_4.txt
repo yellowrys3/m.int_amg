@@ -1,0 +1,288 @@
+SOURCE: https://duckduckgo.com/l/?rut=1434fb23a2f1808f9a50930f759ffdc219ceae2190150216af04783a0505c352&uddg=https%3A%2F%2Fltx.io%2Fmodel%2Fmodel-blog%2Fltx-2-3-prompt-guide
+
+[ Models](https://ltx.io/model)
+[LTX](https://ltx.io/)
+LTX Models
+[LTX API](https://ltx.io/model/api)[LTX Studio](https://ltx.studio/)
+[LTX Model](https://ltx.video/#vfx)[API](https://ltx.video/#vfx)[LTX Platform](https://ltx.video/#vfx)
+Research
+[LTX-2.3](https://ltx.io/model/ltx-2-3)[LTX-2](https://ltx.io/model/ltx-2)[LTXV](https://ltx.io/model/ltxv)[Try LTX](https://console.ltx.video/playground/)
+API
+[LTX API](https://ltx.io/model/api)[Documentation](https://docs.ltx.video/welcome)[Pricing](https://ltx.io/model/api/pricing)[Talk to Sales](https://ltx.studio/lead-survey?form_id=NeKVLdZw&kpi=api&placement=topmenu&anonymousId=9D60473D-FD7D-4297-94F6-689006028CAC)
+Open Source
+[Open Source](https://ltx.io/model/open-source)[GitHub](https://github.com/Lightricks/LTX-2)[HuggingFace](https://huggingface.co/Lightricks/LTX-2.3)
+[Licensing](https://ltx.io/model/license)
+Resources
+[LTX Desktop](https://ltx.io/ltx-desktop)[Video Generation Models](https://ltx.io/model/video-generation-model)[Blog](https://ltx.io/blog)[Academic Programs](https://ltx.io/model/grants)[Developer Program](https://ltx.io/model/ltx-developer-program)[Research Paper](https://cdn.prod.website-files.com/68872d15af29880764eac4aa/695c06aa63b560e217a68363_LTX_2_Technical_Report_compressed.pdf)
+[Log in](https://console.ltx.video/)
+[Log in](https://console.ltx.video/)[Talk to Sales](https://ltx.io/forms/ltx-contact-sales?&kpi=api&placement=topmenu)
+[ Models](https://ltx.io/model)
+[Talk to Sales](https://ltx.io/forms/ltx-contact-sales?&kpi=api&placement=topmenu)
+[Tutorials](https://ltx.io/model/blog-category/tutorials)
+# LTX-2.3 Prompt Guide: Tips For Prompting LTX-2.3
+Learn how to write effective prompts for LTX-2.3 video generation — from cinematic language and scene structure to dialogue, audio, and camera movement.
+![Rachel Luxemburg](https://cdn.prod.website-files.com/68c6ddbeb26cbd692adc0291/6995af006827490cfd56a7ab_rachel-luxemburg.png)
+[Rachel Luxemburg](https://ltx.io/model/blog-author/rachel-luxemburg)
+/
+April 13, 2026
+[Start Now](https://ltx.io/forms/ltx-io-entry-flow?placement=blog_hero)
+![LTX-2.3 Prompt Guide: Tips For Prompting LTX-2.3](https://cdn.prod.website-files.com/68c6ddbeb26cbd692adc0291/69afd7f00346eab74a985255_Klip%20Video%20Still%202026-03-10%201035am.jpeg)
+Table of Contents:
+  * [Core Principles](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide#core-principles)
+  * [What Changed in LTX-2.3](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide#what-changed-in-ltx-23)
+  * [Key Elements to Include](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide#key-elements-to-include)
+  * [For Best Results](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide#for-best-results)
+  * [Tips by Use Case](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide#tips-by-use-case)
+  * [What Works Well](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide#what-works-well)
+  * [What to Avoid](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide#what-to-avoid)
+  * [Common Mistakes](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide#common-mistakes)
+  * [Sample Prompts](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide#sample-prompts)
+  * [Helpful Terms](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide#helpful-terms)
+
+
+Key Takeaways:
+  * LTX-2.3 responds best to long, detailed prompts — the more specific you are about subject, action, lighting, camera movement, and audio, the closer the output matches your vision
+  * Break dialogue into short phrases with acting directions between each line, and use physical cues rather than emotional labels to direct character performance
+  * Match your prompt length to your video length — short prompts for long videos leave the model without enough direction to fill the duration
+
+
+Strong prompts produce better videos. [LTX models](https://ltx.io/model) respond best to detailed, descriptive prompts that paint a complete picture of the scene you're generating. Think of it as writing a shot description for a cinematographer.
+If you're new to writing prompts for video generation, this guide will help you construct effective, production-ready prompts.
+## Core Principles
+#### Be specific and descriptive
+**‍** Instead of "a person walking," try "a young woman in a red coat walking briskly through a rain-soaked Tokyo street at night, neon reflections on wet pavement, handheld camera following from behind."
+#### Describe the full scene
+**‍** Include the subject, their action, the environment, the lighting, and the camera behavior. The more complete your description, the closer the output matches your intent.
+#### Use cinematic language
+**‍** Terms like "macro lens," "tracking shot," "shallow depth of field," "golden hour," and "low angle" are understood by the model and directly influence the output.
+#### Describe audio when relevant
+**‍** For endpoints that generate synchronized audio, include audio descriptions in your prompt: "the sound of rain on pavement," "soft ambient music," "a crowd cheering in the distance."
+![Vimeo video preview](https://vumbnail.com/1170659516.jpg)
+## What Changed in LTX-2.3
+[LTX-2.3 ](https://ltx.io/model/ltx-2-3)has a redesigned [text](https://ltx.io/model/capabilities/text-to-video) connector architecture that makes it significantly more responsive to prompt details. This means:
+#### More faithful prompt adherence
+**‍** Specific descriptions of facial expressions, timing, pauses, and emotional beats translate more reliably into the output. You can direct acting at a granular level — "he pauses, looks to the side, then continues speaking with a cracking voice" — and expect the model to follow.
+#### Prompt length matters
+**‍** Longer, more descriptive prompts consistently outperform short ones on 2.3. If you're generating longer videos (8–10 seconds), make sure your prompt is detailed enough to fill the duration. A short prompt for a long video often results in the model rushing through the described action.
+#### Break dialogue into segments
+**‍** When prompting for speaking characters, break long sentences into shorter phrases with acting directions between them. For example:
+A middle-aged man with greying hair speaks in a sad, slow-paced voice, "I remember after you kids came along..." He pauses and looks to the side, then continues, "your mom..." His eyes widen momentarily. He finishes with a cracking voice, "said something to me I never quite understood." The camera slowly zooms into his face. The audio is crisp with faint room tone.
+This gives the model explicit direction on pacing, emotion, and physical acting for each beat.
+#### Audio descriptions have more impact
+**‍** With improved audio quality in 2.3, it's worth spending more attention on audio prompts. Describe the acoustic environment, the character's voice qualities, and any ambient sounds you want.
+## Key Elements to Include
+When writing a prompt, aim to include the following elements:
+#### 1. Establish the Shot
+Use cinematography terms that match your intended genre. Include shot scale or category-specific characteristics to refine the visual style.
+#### 2. Set the Scene
+Describe lighting conditions, color palette, surface textures, and atmosphere to establish mood and tone.
+#### 3. Describe the Action
+Write the core action as a natural sequence, flowing clearly from beginning to end.
+#### 4. Define the Character(s)
+Include age, hairstyle, clothing, and distinguishing features. Express emotion through physical cues, not abstract labels.
+#### 5. Identify Camera Movement(s)
+Specify how and when the camera moves. Describing how subjects appear after the movement helps the model complete the motion accurately.
+#### 6. Describe the Audio
+Clearly describe ambient sound, music, speech, or singing.
+  * Place spoken dialogue in quotation marks
+  * Specify language and accent if needed
+
+
+## For Best Results
+  * Write your prompt as a single flowing paragraph
+  * Use present tense verbs for action and movement
+  * Match the level of detail to the shot scale — close-ups need more detail than wide shots
+  * Describe camera movement relative to the subject
+
+
+## Tips by Use Case
+#### Text-to-Video
+Start with a strong visual description. Include subject, action, environment, lighting, camera movement, and audio. The model generates everything from scratch, so detail is your primary lever.
+#### Image-to-Video
+Focus your prompt on the motion and action you want — the visual starting point is already defined by your input image. Describe what happens next: how the subject moves, how the camera follows, what sounds emerge. Avoid describing the static elements already visible in the image. Instead, describe the transition from stillness to motion.
+#### Audio-to-Video
+Your [audio input](https://ltx.io/model/capabilities/audio-to-video) anchors the temporal structure. Use the prompt to describe the visual interpretation of that audio — what scenes, subjects, and camera work should accompany the soundtrack.
+## What Works Well  
+| Strength  | Description  |  
+| --- | --- |  
+| Cinematic compositions  | Wide, medium, and close up shots with thoughtful lighting, shallow depth of field, and natural motion  |  
+| Emotive human moments  | Strong single subject emotional expressions, subtle gestures, and facial nuance  |  
+| Atmosphere and setting  | Fog, mist, golden hour light, rain, reflections, ambient textures  |  
+| Clear camera language  | Explicit instructions like "slow dolly in" or "handheld tracking"  |  
+| Stylized aesthetics  | Painterly, noir, analog film, fashion editorial, pixelated animation  |  
+| Lighting and mood control  | Backlighting, color palettes, rim light, flickering lamps  |  
+| Voice capabilities  | Characters can talk and sing, with support for multiple languages  |  
+## What to Avoid  
+| Avoid  | Why It Doesn't Work  |  
+| --- | --- |  
+| Internal emotional states  | Use visual cues instead of labels like "sad" or "confused"  |  
+| Text and logos  | Readable text is not currently reliable  |  
+| Complex physics  | Chaotic motion can introduce artifacts (dancing is OK)  |  
+| Overloaded scenes  | Too many characters or actions reduce clarity  |  
+| Conflicting lighting  | Mixed light logic confuses scene interpretation  |  
+| Overcomplicated prompts  | Start simple and layer complexity gradually  |  
+## Common Mistakes
+  * Too vague: "A nice video of nature" — the model has too many options and picks arbitrarily. Be specific about what's in the frame.
+  * Over-constrained: "Exactly 3 birds flying left to right at 45 degrees while the camera pans right at 2 degrees per second" — the model works best with natural language descriptions, not numerical specifications.
+  * Mismatched duration: A 10-word prompt for a 10-second video — the model doesn't have enough direction to fill the duration. Long videos need long prompts.
+  * Conflicting directions: "A still, peaceful lake with dramatic waves crashing" — contradictions confuse the model. Be internally consistent.
+
+
+## Sample Prompts
+##### Example 1
+###### EXT. SMALL TOWN STREET – MORNING – LIVE NEWS BROADCASTThe shot opens on a news reporter standing in front of a row of cordoned-off cars, yellow caution tape fluttering behind him. The light is warm, early sun reflecting off the camera lens. The faint hum of chatter and distant drilling fills the air. The reporter, composed but visibly excited, looks directly into the camera, microphone in hand. Reporter (live): "Thank you, Sylvia. And yes — this is a sentence I never thought I'd say on live television — but this morning, here in the quiet town of New Castle, Vermont… black gold has been found!" He gestures slightly toward the field behind him. Reporter (grinning): "If my cameraman can pan over, you'll see what all the excitement's about." The camera pans right, slowly revealing a construction site surrounded by workers in hard hats. A beat of silence — then, with a sudden roar, a geyser of oil erupts from the ground, blasting upward in a violent plume. Workers cheer and scramble, the black stream glistening in the morning light. The camera shakes slightly, trying to stay focused through the chaos. Reporter (off-screen, shouting over the noise): "There it is, folks — the moment New Castle will never forget!" The camera catches the sunlight gleaming off the oil mist before pulling back, revealing the entire scene — the small-town skyline silhouetted against the wild fountain of oil.
+#####    
+Example 2
+###### The camera opens in a calm, sunlit frog yoga studio. Warm morning light washes over the wooden floor as incense smoke drifts lazily in the air. The senior frog instructor sits cross-legged at the center, eyes closed, voice deep and calm. "We are one with the pond." All the frogs answer softly: "Ommm..." "We are one with the mud." "Ommm..." He smiles faintly. "We are one with the flies." A pause. The camera pans to the side towards one frog who twitches, eyes darting. Suddenly its tongue snaps out, catching a fly mid-air and pulling it into its mouth. The master exhales slowly, still serene. "But we do not chase the flies..." Beat. "not during class." The guilty frog lowers its head in shame, folding its hands back into a meditative pose. The other frogs resume their chant: "Ommm..." Camera holds for a moment on the embarrassed frog, eyes closed too tightly, pretending nothing happened.
+## Helpful Terms
+#### Categories
+  * Animation: Stop-motion, 2D / 3D animation, Claymation, Hand-drawn
+  * Stylized: Comic book, Cyberpunk, 8-bit pixel, Surreal, Minimalist, Painterly, Illustrated
+  * Cinematic: Period drama, Film noir, Fantasy, Epic space opera, Thriller, Modern romance, Experimental film, Arthouse, Documentary
+
+
+#### Visual Details
+  * Lighting: Flickering candles, Neon glow, Natural sunlight, Dramatic shadows
+  * Textures: Rough stone, Smooth metal, Worn fabric, Glossy surfaces
+  * Color Palette: Vibrant, Muted, Monochromatic, High contrast
+  * Atmosphere: Fog, Rain, Dust, Smoke, Particles
+
+
+![Vimeo video preview](https://vumbnail.com/1170664523.jpg)
+#### Sound and Voice
+  * Ambient Settings: Coffeeshop noise, Wind and rain, Forest ambience with birds
+  * Dialogue Style: Energetic announcer, Resonant voice with gravitas, Distorted radio-style, Robotic monotone, Childlike curiosity
+  * Volume: Whisper, Mutter, Shout, Scream
+
+
+#### Technical Style Markers
+  * Camera Language: Follows, Tracks, Pans across, Circles around, Tilts upward, Pushes in / pulls back, Overhead view, Handheld movement, Over-the-shoulder, Wide establishing shot, Static frame
+  * Film Characteristics: Film grain, Lens flares, Pixelated edges, Jittery stop-motion
+  * Scale Indicators: Expansive, Epic, Intimate, Claustrophobic
+  * Pacing and Temporal Effects: Slow motion, Time-lapse, Rapid cuts, Lingering shot, Continuous shot, Freeze-frame, Fade-in / fade-out, Seamless transition, Sudden stop
+  * Visual Effects: Particle systems, Motion blur, Depth of field
+
+
+#### Related posts
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/65bb6b901cb133d784d16166/66a7747c67052b0de27530c0_Placeholder%20Image%20-%20Landscape.svg)](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+[This is some text inside of a div block.](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)### [Heading](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)
+This is some text inside of a div block.
+[![](https://cdn.prod.website-files.com/68c6ddbeb26cbd692adc0291/6995af006827490cfd56a7ab_rachel-luxemburg.png)](https://ltx.io/model/blog-author/rachel-luxemburg)
+[Rachel Luxemburg](https://ltx.io/model/blog-author/rachel-luxemburg)
+Rachel is the Senior Developer Advocate for LTX-2, connecting cutting-edge AI with the developers who build on it.
+No items found.
+Share This Post
+  *   *   *   *   * 
+
+[Home](https://ltx.io/)[Blog](https://ltx.io/blog)
+LTX-2.3 Prompt Guide: Tips For Prompting LTX-2.3
+![](https://cdn.prod.website-files.com/68872d15af29880764eac4aa/69445617becf4761ee3d478b_ltx-logo.svg)
+Creative Intelligence, Built for Real Work
+[Try LTX Now](https://console.ltx.video/playground/)
+![](https://cdn.prod.website-files.com/68872d15af29880764eac4aa/69445617becf4761ee3d478b_ltx-logo.svg)
+#### Products
+[LTX Models](https://ltx.io/model)[LTX Studio](https://ltx.studio/)[LTX API](https://ltx.io/model/api)
+#### Company
+[About](https://ltx.io/about-us)[Careers](https://careers.lightricks.com/)
+#### Resources
+[Help Center](https://support.ltx.studio/hc/en-us)[Documentation](https://docs.ltx.video/welcome)[API Status](https://status.ltx.video/)[Glossary](https://ltx.io/glossary)
+#### Social
+[Github](https://github.com/Lightricks/LTX-2)[HuggingFace](https://huggingface.co/Lightricks/LTX-2.3)[Discord](https://discord.com/invite/ltxplatform)
+#### Legal
+[Privacy Policy](https://static.lightricks.com/legal/privacy-policy.pdf)[Cookie Preferences](https://ltx.io/model/model-blog/ltx-2-3-prompt-guide)[Trust Center](https://trust.lightricks.com/)
+#### Legal
+[Accessibility](https://static.lightricks.com/legal/CPRA%20Notice%20-%20UPLOADED.pdf)[CCPA Privacy notice](https://static.lightricks.com/legal/CPRA%20Notice%20-%20UPLOADED.pdf)[Data Subject Request](https://static.lightricks.com/legal/DSR-%20Uploaded%20-%20May%2024,%202023.pdf)
+© 2026 All rights reserved

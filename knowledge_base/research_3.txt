@@ -1,0 +1,200 @@
+SOURCE: https://duckduckgo.com/l/?rut=ffd428f8e039bb2e562bc45d2ae778a6b7d8bacc3f22cffa690b35e05c0beb86&uddg=https%3A%2F%2Fltx-ai.com%2Fprompting-guide
+
+[LTX AI](https://ltx-ai.com/)
+  * [Home](https://ltx-ai.com/)
+  * [LTX-2.3](https://ltx-ai.com/ltx-2-3)
+  * [LTX Lipsync](https://ltx-ai.com/ltx-lipsync)
+  * [LTX Video Extender](https://ltx-ai.com/ltx-video-extender)
+  * [Prompting Guide](https://ltx-ai.com/prompting-guide)
+  * [Pricing](https://ltx-ai.com/pricing)
+
+
+Master AI Video Generation
+# Prompting Guide
+Learn how to craft detailed, compelling prompts that bring your vision to life. From beginners to pros, master the art of AI video generation.
+6
+Key Elements
+20+
+Example Prompts
+5
+Templates
+[](https://ltx-ai.com/prompting-guide#examples)
+## See Prompts in Action
+Explore these example prompts and their generated results. Click the copy button to use them as starting points.
+![News Reporter Scene](https://ltx-ai.com/userCase/1.webp)
+Cinematic
+### News Reporter Scene
+EXT. SMALL TOWN STREET – MORNING – LIVE NEWS BROADCAST. The shot opens on a news reporter standing in front of a row of cordoned-off cars, yellow caution tape fluttering behind him. The light is warm, early sun reflecting off the camera lens.
+![Fashion Runway Show](https://ltx-ai.com/userCase/5.webp)
+Fashion
+### Fashion Runway Show
+A high-fashion runway show with dramatic spotlighting. A model walks confidently toward camera wearing an avant-garde outfit with flowing fabric. The audience sits in darkness, their attention fixed on the illuminated catwalk.
+![Cozy Coffee Shop](https://ltx-ai.com/userCase/4.webp)
+Lifestyle
+### Cozy Coffee Shop
+A cozy coffee shop interior bathed in warm afternoon light. A young woman sits by the window, steam rising from her ceramic cup as she gazes thoughtfully at the rain-streaked glass. Soft jazz plays in the background.
+## 6 Key Elements of a Great Prompt
+Master these essential components to craft prompts that produce stunning, consistent results.
+01
+### Establish the Shot
+Use cinematography terms that match your intended genre. Include shot scale or category-specific characteristics.
+Example
+“Wide establishing shot, Close-up portrait, Aerial drone view”
+02
+### Set the Scene
+Describe lighting conditions, color palette, surface textures, and atmosphere to establish mood.
+Example
+“Golden hour lighting with warm tones, foggy atmosphere with blue undertones”
+03
+### Describe the Action
+Write the core action as a natural sequence, flowing clearly from beginning to end.
+Example
+“Character walks slowly toward the camera, then turns to look at the horizon”
+04
+### Define the Character
+Include age, hairstyle, clothing, and distinguishing features. Express emotion through physical cues.
+Example
+“Young woman with flowing red hair, wearing a vintage leather jacket, determined expression”
+05
+### Camera Movement
+Specify how and when the camera moves. Describe how subjects appear after the movement.
+Example
+“Camera slowly pans left, then zooms in on the character's face”
+06
+### Describe the Audio
+Clearly describe ambient sound, music, speech, or singing. Use quotes for spoken dialogue.
+Example
+“Sound of waves crashing, distant seagulls, soft piano music in the background”
+💡
+#### Pro Tip: The Flow Method
+Write your prompt as a single flowing paragraph rather than bullet points. Use present tense verbs and describe the scene as if it's happening right now. Aim for 4-8 descriptive sentences that naturally flow from establishing the shot to describing the audio.
+## Tips for Best Results
+Follow these guidelines to consistently generate high-quality videos that match your vision.
+### Write as a Single Paragraph
+Craft your prompt as one flowing paragraph instead of bullet points. This creates better narrative coherence.
+### Use Present Tense
+Always use present tense verbs for action and movement. This creates immediacy and clarity.
+### Match Detail to Shot Scale
+Close-ups need more detail than wide shots. Focus your descriptive energy where it matters most.
+### Iterate Freely
+LTX is designed for fast experimentation. Don't aim for perfection on the first try.
+  * Write as a flowing narrative paragraph
+  * Use present tense for all actions
+  * Describe camera movement relative to subjects
+  * Include specific lighting and atmosphere details
+  * Use quotation marks for spoken dialogue
+  * Keep prompts to 4-8 sentences
+
+
+  * Use bullet points or fragmented descriptions
+  * Write in past or future tense
+  * Describe camera movement in absolute terms
+  * Forget to mention lighting conditions
+  * Include dialogue without quotation marks
+  * Write overly long or complex prompts
+
+
+## Prompt Gallery
+Browse our collection of example prompts and generated videos. Filter by category or click to copy.
+![Coffee Shop Moment](https://ltx-ai.com/guideCase/1-1.png)
+Lifestyle
+### Coffee Shop Moment
+A cozy coffee shop interior bathed in warm afternoon light. A young woman sits by the window, steam rising from her ceramic cup as she gazes thoughtfully at the rain-streaked glass. Soft jazz plays in the background.
+![Fashion Runway](https://ltx-ai.com/guideCase/1-2.png)
+Fashion
+### Fashion Runway
+A high-fashion runway show with dramatic spotlighting. A model walks confidently toward camera wearing an avant-garde outfit with flowing fabric. The audience sits in darkness, their attention fixed on the illuminated catwalk.
+![Chef at Work](https://ltx-ai.com/guideCase/1-3.png)
+Commercial
+### Chef at Work
+A professional kitchen scene with dramatic lighting. A chef skillfully plates an exquisite dish, flames dancing in a pan behind them. Close-up details show precision and artistry in every movement.
+![Vintage Wedding](https://ltx-ai.com/guideCase/1-5.png)
+Events
+### Vintage Wedding
+A romantic outdoor wedding ceremony in a garden at golden hour. The bride walks down an aisle lined with wildflowers, soft petals floating in the warm breeze. Guests watch with tears of joy.
+![Yoga at Sunrise](https://ltx-ai.com/guideCase/1-6.png)
+Wellness
+### Yoga at Sunrise
+A serene beach at sunrise with pink and orange skies. A person practices yoga on the sand, silhouette against the glowing horizon. Gentle waves create a calming rhythm in the background.
+![Classic Car Show](https://ltx-ai.com/guideCase/1-7.png)
+Automotive
+### Classic Car Show
+A gleaming 1960s convertible sits on a manicured lawn at a car show. Chrome details sparkle in the afternoon sun. The camera slowly circles the vehicle, revealing its curves and classic design.
+## Ready-to-Use Templates
+Use these structured templates as starting points for your prompts. Replace the bracketed sections with your own content.
+### Cinematic Scene
+Perfect for dramatic movie-style shots with professional cinematography.
+Collapse
+[SHOT TYPE] of [SUBJECT] in [LOCATION]. The lighting is [LIGHTING DESCRIPTION], creating [MOOD/ATMOSPHERE]. [CAMERA MOVEMENT]. [CHARACTER ACTION WITH EMOTION]. Sound: [AUDIO DESCRIPTION].
+### Character Portrait
+Focus on character details and emotional expression.
+Expand
+[SHOT SCALE] of [CHARACTER DESCRIPTION]. [LIGHTING DETAILS]. The character is [ACTION/POSE], with [EMOTIONAL EXPRESSION DETAILS]. [CLOTHING/ACCESSORIES]. Background: [SETTING DESCRIPTION]. Sound: [AUDIO].
+### Nature Documentary
+Capture the beauty of natural landscapes and wildlife.
+Expand
+[SHOT TYPE] of [LANDSCAPE/SCENE]. The time of day is [TIME], with [LIGHTING CONDITIONS]. [WEATHER/ATMOSPHERE DETAILS]. [CAMERA MOVEMENT]. [ELEMENTS IN MOTION]. Sound: [NATURAL AUDIO].
+### Urban Scene
+City life, architecture, and street photography style.
+Expand
+[SHOT TYPE] of [URBAN LOCATION]. The time is [TIME OF DAY], with [LIGHTING]. [ARCHITECTURE DETAILS]. [PEOPLE/ACTIVITY DESCRIPTION]. [CAMERA MOVEMENT]. Sound: [CITY AUDIO].
+### Fantasy World
+Magical scenes with otherworldly elements and atmosphere.
+Expand
+[SHOT TYPE] of [FANTASY SETTING]. The atmosphere is [MAGICAL ELEMENTS], with [LIGHTING EFFECTS]. [CREATURES/CHARACTERS]. [MAGICAL ACTION]. [CAMERA MOVEMENT]. Sound: [FANTASY AUDIO].
+#### Template Legend
+`[SHOT TYPE]`Wide shot, Close-up, Aerial, etc.
+`[SUBJECT]`Main focus of the scene
+`[LOCATION]`Where the scene takes place
+`[LIGHTING]`Natural light, neon, golden hour
+`[CAMERA MOVEMENT]`Pan, zoom, tracking shot
+`[AUDIO]`Ambient sounds, music, dialogue
+## Mistakes to Avoid
+Learn from common errors that prevent prompts from producing great results.
+Using Bullet Points
+The Problem
+Listing scene elements as bullet points creates disjointed, incoherent videos.
+Write as a flowing narrative paragraph that connects all elements naturally.
+❌ Don't
+• Character walks • Camera pans left • Golden lighting • City background
+✅ Do
+A wide shot of a young professional walking confidently through a sunlit city street. Golden afternoon light filters through tall buildings, casting long shadows. The camera slowly pans left, following the character as they move through the bustling urban environment.
+Writing in Past Tense
+Vague Descriptions
+Forgetting Lighting
+Overly Long Prompts
+Missing Camera Details
+## Frequently Asked Questions
+Common questions about writing effective prompts for AI video generation.
+How long should my prompts be?
+Can I use bullet points in my prompts?
+What tense should I use?
+How do I control camera movement?
+What if my generated video doesn't match my prompt?
+Can I specify particular styles or genres?
+Should I describe audio in my prompts?
+How detailed should character descriptions be?
+Start Creating Today
+## Ready to Create  
+Amazing Videos?
+Put your new prompting skills to work. Start generating professional-quality AI videos with LTX 2.3 AI Video Generator today.
+[Create AI Videos Free](https://ltx-ai.com/ltx-2-3)
+No credit card required. Start for free.
+[LTX AI](https://ltx-ai.com/prompting-guide#top)
+© 2025 LTX AI. All rights reserved.
+Navigation
+  * [Home](https://ltx-ai.com/)
+  * [LTX-2.3](https://ltx-ai.com/ltx-2-3)
+  * [LTX Lipsync](https://ltx-ai.com/ltx-lipsync)
+  * [LTX Video Extender](https://ltx-ai.com/ltx-video-extender)
+  * [Prompting Guide](https://ltx-ai.com/prompting-guide)
+  * [Pricing](https://ltx-ai.com/pricing)
+  * [Blog](https://ltx-ai.com/blog)
+
+
+Legal
+  * [Terms of Service](https://ltx-ai.com/terms)
+  * [Privacy Policy](https://ltx-ai.com/privacy)
+  * [Refund Policy](https://ltx-ai.com/refund)
+
+

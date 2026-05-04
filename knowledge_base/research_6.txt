@@ -1,0 +1,110 @@
+SOURCE: https://duckduckgo.com/l/?rut=5a0e56135ed3eaebe035c29fb385aadb646e8de55cc7372b20eafd15483ee87b&uddg=https%3A%2F%2Fltxworkflow.com%2Fresources%2Fcommunity%2Fltx-23-prompt-engineering-best-practices-community
+
+[ltx workflow](https://ltxworkflow.com/)
+[Downloads](https://ltxworkflow.com/models)[Workflows](https://ltxworkflow.com/workflows)[Pricing](https://ltxworkflow.com/pricing)[Guide](https://ltxworkflow.com/guide)
+Resources
+[Blog](https://ltxworkflow.com/blog)[Tutorials](https://ltxworkflow.com/resources/tutorials)[Community](https://ltxworkflow.com/resources/community)[Showcase](https://ltxworkflow.com/resources/showcase)[Research](https://ltxworkflow.com/resources/research)[Tools](https://ltxworkflow.com/resources/tools)
+[Sign In](https://ltxworkflow.com/sign-in)
+Community
+# LTX 2.3 Prompt Engineering Best Practices from Community
+Community-sourced tips for writing effective prompts in LTX 2.3: camera movements, motion descriptors, and avoiding common pitfalls that lead to artifacts.
+By ltx workflow
+> **Editor's Note:** This guide compiles community-tested prompt engineering techniques for LTX 2.3, focusing on practical tips that consistently produce better results.
+# LTX 2.3 Prompt Engineering Best Practices from Community
+![Prompt Engineering](https://ltxworkflow.com/images/resources/prompt-engineering.jpg)
+The LTX 2.3 community has discovered specific prompt patterns that consistently produce higher-quality videos. This guide compiles the most effective techniques.
+## Camera Movement Descriptors
+**Effective patterns:**
+  * "camera slowly dollies in" - smooth forward movement
+  * "jib up from ground level" - crane shot upward
+  * "gentle pan right" - horizontal camera rotation
+  * "orbit around subject" - circular camera path
+
+
+**Avoid:**
+  * Vague terms like "dynamic camera" or "interesting angle"
+  * Multiple conflicting movements in one prompt
+  * Camera speeds without context ("fast pan" vs "whip pan")
+
+
+## Motion Control
+**High success rate:**
+  * "subtle wind blowing hair" - natural micro-movements
+  * "waves gently lapping shore" - repetitive motion
+  * "character turns head slowly" - controlled action
+
+
+**Common failures:**
+  * "everything moving" - causes chaos
+  * "fast action" without specifics - unpredictable results
+  * Complex multi-object choreography - often fails
+
+
+## Lighting and Atmosphere
+**Works well:**
+  * "golden hour sunlight" - specific time of day
+  * "soft diffused lighting" - quality descriptor
+  * "rim light from behind" - directional lighting
+
+
+**Problematic:**
+  * "dramatic lighting" - too vague
+  * Multiple light sources without hierarchy
+  * Conflicting atmosphere terms
+
+
+## Technical Quality Descriptors
+**Recommended:**
+  * "high detail architecture" - emphasizes sharpness
+  * "crisp focus on subject" - depth of field control
+  * "smooth 24fps motion" - frame rate specification
+
+
+**Skip these:**
+  * "4K" or "8K" - model ignores resolution terms
+  * "photorealistic" - often counterproductive
+  * "professional" - meaningless to model
+
+
+## Prompt Structure
+**Optimal format:**
+  1. Subject (what)
+  2. Action (movement)
+  3. Camera (perspective)
+  4. Lighting (atmosphere)
+  5. Technical (quality)
+
+
+Example: "Ocean waves crashing on rocky shore, camera slowly pans right, golden hour sunlight, high detail water physics, 25fps"
+## Common Pitfalls
+**Artifact triggers:**
+  * Overly long prompts (>100 words)
+  * Contradictory instructions
+  * Abstract concepts without visual anchors
+  * Multiple subjects with different actions
+
+
+**Quality killers:**
+  * Wrong aspect ratio for content
+  * CFG scale above 5.0
+  * Insufficient context for complex scenes
+
+
+## Community Tips
+  * Test prompts at low resolution first
+  * Keep CFG between 3.0-4.5 for most cases
+  * Add "smooth motion" for better temporal consistency
+  * Specify frame rate explicitly
+  * Use reference images when possible
+
+
+## Sources
+  * [Why the Open-Source AI Video Wins](https://cybercorsairs.com/ltx-2-3-vs-sora-open-source-ai-video-wins/)
+  * [How LTX Studio solves the AI video consistency gap](https://www.msn.com/en-us/news/technology/from-17-hours-to-minutes-how-ltx-studio-solves-the-ai-video-consistency-gap/ar-AA20nIRv)
+
+
+#ltx-2.3#prompt-engineering#community#tips
+Download **LTX 2.3** models for ComfyUI — **taeltx2_3.safetensors** (VAE, required), **ltx-2.3-22b-distilled_transformer_only_fp8_input_scaled_v3.safetensors** (16GB FP8), and official full-precision checkpoints (32GB). Generate ComfyUI workflow JSON for LTX 2.3 text-to-video and image-to-video.
+[![Featured on Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=ltx-workflow&theme=dark)](https://www.producthunt.com/products/ltx-workflow)[![Listed on DEV.to](https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg)](https://dev.to)[![Featured on ToolFame](https://toolfame.com/badge-light.svg)](https://toolfame.com)[![Featured on ShowMeBestAI](https://showmebest.ai/badge/feature-badge-white.webp)](https://showmebest.ai)[![Listed on Turbo0](https://img.turbo0.com/badge-listed-light.svg)](https://turbo0.com/item/ltx-workflow)[![ltx workflow - Featured on Startup Fame](https://startupfa.me/badges/featured-badge.webp)](https://startupfa.me/s/ltx-workflow?utm_source=ltxworkflow.com)[![Featured on Fazier](https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=featured&theme=light)](https://fazier.com)[![Listed on Future Tools](https://futuretools.io/_next/image?url=%2Flogo%402x.png&w=64&q=75&dpl=dpl_4cALsf7ySXmctGdvC7T5DdTzupW6)](https://futuretools.io/)[![Featured on Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=ltx-workflow&theme=dark)](https://www.producthunt.com/products/ltx-workflow)[![Listed on DEV.to](https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg)](https://dev.to)[![Featured on ToolFame](https://toolfame.com/badge-light.svg)](https://toolfame.com)[![Featured on ShowMeBestAI](https://showmebest.ai/badge/feature-badge-white.webp)](https://showmebest.ai)[![Listed on Turbo0](https://img.turbo0.com/badge-listed-light.svg)](https://turbo0.com/item/ltx-workflow)[![ltx workflow - Featured on Startup Fame](https://startupfa.me/badges/featured-badge.webp)](https://startupfa.me/s/ltx-workflow?utm_source=ltxworkflow.com)[![Featured on Fazier](https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=featured&theme=light)](https://fazier.com)[![Listed on Future Tools](https://futuretools.io/_next/image?url=%2Flogo%402x.png&w=64&q=75&dpl=dpl_4cALsf7ySXmctGdvC7T5DdTzupW6)](https://futuretools.io/)
+[Feedback](https://ltxworkflow.com/feedback)[Changelog](https://ltxworkflow.com/changelog)[Privacy Policy](https://ltxworkflow.com/privacy)[Terms of Service](https://ltxworkflow.com/terms)
+ltx workflow — Not affiliated with Lightricks.
