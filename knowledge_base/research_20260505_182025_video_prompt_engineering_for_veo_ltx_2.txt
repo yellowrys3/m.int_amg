@@ -1,0 +1,517 @@
+TYPE: trend_research
+TOPIC: video prompt engineering for veo/ltx
+SOURCE: https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313
+CRAWLED_AT: 2026-05-05T18:20:25
+
+[Skip to content](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#start-of-content)
+[ ](https://gist.github.com/)
+Search Gists 
+Search Gists
+[All gists](https://gist.github.com/discover) [Back to GitHub](https://github.com) [ Sign in ](https://gist.github.com/auth/github?return_to=https%3A%2F%2Fgist.github.com%2Fsyscraft906%2F44566294675ccf4e81c5f40a7f3de313) [ ](https://gist.github.com/join?return_to=https%3A%2F%2Fgist.github.com%2Fsyscraft906%2F44566294675ccf4e81c5f40a7f3de313&source=header-gist)
+[ ](https://gist.github.com/)
+[ Sign in ](https://gist.github.com/auth/github?return_to=https%3A%2F%2Fgist.github.com%2Fsyscraft906%2F44566294675ccf4e81c5f40a7f3de313) [ ](https://gist.github.com/join?return_to=https%3A%2F%2Fgist.github.com%2Fsyscraft906%2F44566294675ccf4e81c5f40a7f3de313&source=header-gist)
+You signed in with another tab or window. [Reload](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313) to refresh your session. You signed out in another tab or window. [Reload](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313) to refresh your session. You switched accounts on another tab or window. [Reload](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313) to refresh your session. Dismiss alert
+{{ message }}
+Instantly share code, notes, and snippets. 
+[ ](https://gist.github.com/syscraft906)
+# [syscraft906](https://gist.github.com/syscraft906)/**[ai-video-prompt-guide-2026.md](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313)**
+Created March 20, 2026 04:19
+Show Gist options
+ 
+ * You must be signed in to star a gist
+ * You must be signed in to fork a gist
+
+ * Embed 
+# Select an option 
+ * Embed Embed this gist in your website.
+ * Share Copy sharable link for this gist.
+ * Clone via HTTPS Clone using the web URL.
+## No results found
+[Learn more about clone URLs](https://docs.github.com/articles/which-remote-url-should-i-use)
+Clone this repository at &lt;script src=&quot;https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313.js&quot;&gt;&lt;/script&gt; 
+ * Save syscraft906/44566294675ccf4e81c5f40a7f3de313 to your computer and use it in GitHub Desktop.
+
+[ ](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313) [ 1 ](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313/revisions)
+Embed 
+# Select an option 
+ * Embed Embed this gist in your website.
+ * Share Copy sharable link for this gist.
+ * Clone via HTTPS Clone using the web URL.
+
+## No results found
+[Learn more about clone URLs](https://docs.github.com/articles/which-remote-url-should-i-use)
+Clone this repository at &lt;script src=&quot;https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313.js&quot;&gt;&lt;/script&gt; 
+Save syscraft906/44566294675ccf4e81c5f40a7f3de313 to your computer and use it in GitHub Desktop.
+[Download ZIP](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313/archive/846b7d9c61e045e05b15927d238cddec13781a32.zip)
+AI Video Prompt Engineering Guide 2026 — Sora, Runway, Kling, Veo Techniques 
+[ Raw ](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313/raw/846b7d9c61e045e05b15927d238cddec13781a32/ai-video-prompt-guide-2026.md)
+[ **ai-video-prompt-guide-2026.md** ](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#file-ai-video-prompt-guide-2026-md)
+# 🎬 AI Video Prompt Engineering Guide — 2026
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#-ai-video-prompt-engineering-guide--2026)
+**Date:** March 20, 2026 
+**Sources:** LTX Studio, TrueFan AI, Simplified, Envato Elements, Magic Prompt, Medium
+> _The difference between a generic AI video and a cinematic one is entirely in the prompt._
+* * *
+## 🧠 How AI Video Models Read Prompts
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#-how-ai-video-models-read-prompts)
+Modern video models (Sora 2, Runway Gen-4.5, Kling 2.6, Veo 3.1) interpret prompts differently from image generators:
+ * **Token priority** — The first 20–30 words carry the most weight. Front-load the critical elements.
+ * **Temporal understanding** — Describe what happens over TIME, not just what exists.
+ * **Physics awareness** — 2026 models simulate cause-and-effect. Describe motion consequences, not just motion.
+ * **Camera-as-character** — Camera movement is as important as subject movement.
+
+* * *
+## 📐 The Universal Prompt Scaffold (2026 Standard)
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#-the-universal-prompt-scaffold-2026-standard)
+Professional prompts follow an **8-slot structure**. Every slot matters.
+
+```
+[SUBJECT] + [ACTION] + [ENVIRONMENT] + [CAMERA] + [LIGHTING] + [STYLE] + [MOTION] + [NEGATIVES]
+
+```
+ 
+| Slot | What it controls | Example | 
+| --- | --- | --- | 
+| **Subject** | Who/what is the focus | "A 30-year-old woman in a white linen blazer" | 
+| **Action** | What is happening | "walking confidently through a glass-walled office" | 
+| **Environment** | Where + atmosphere | "golden hour, city skyline through floor-to-ceiling windows" | 
+| **Camera** | Shot type + movement | "35mm lens, slow dolly-in from medium to close-up" | 
+| **Lighting** | Source, quality, mood | "warm 3200K key light, cool blue rim from window, Rembrandt lighting" | 
+| **Style** | Aesthetic + color grade | "cinematic, Kodak 2383 film stock, teal-and-orange grade" | 
+| **Motion** | Speed + physics | "slow-motion 60fps, hair slightly moving, suit fabric texture visible" | 
+| **Negatives** | What to avoid | "no morphing, no extra limbs, no flickering, no cartoonish colors" | 
+* * *
+## ✅ The Golden Rules
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#-the-golden-rules)
+### Rule 1 — Front-load the most important thing
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#rule-1--front-load-the-most-important-thing)
+
+```
+❌ "A sunset over the ocean, very beautiful, cinematic, a man is standing on a cliff"
+✅ "A man standing on a cliff at sunset, overlooking a vast ocean, cinematic wide shot"
+
+```
+
+The AI processes the beginning first. Put the subject and action first, not the setting.
+* * *
+### Rule 2 — Specify length and physics of movement
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#rule-2--specify-length-and-physics-of-movement)
+
+```
+❌ "The camera moves"
+✅ "Slow dolly-in from wide shot to close-up over 5 seconds"
+
+❌ "Water splashes"
+✅ "Water droplets scatter in slow motion, catching golden backlight, individual droplets visible"
+
+```
+
+* * *
+### Rule 3 — Use cinematic language, not English descriptions
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#rule-3--use-cinematic-language-not-english-descriptions)
+The models are trained on film datasets. Use film/photography terminology: 
+| Natural language | Cinematic equivalent | 
+| --- | --- | 
+| "zooming in" | "dolly-in" or "push-in" | 
+| "moving sideways" | "lateral tracking shot" | 
+| "from above" | "bird's-eye view" / "overhead crane shot" | 
+| "close to the face" | "extreme close-up (ECU)" | 
+| "dark and moody" | "low-key lighting, noir aesthetic" | 
+| "bright and clean" | "high-key lighting, minimal shadows" | 
+| "blurry background" | "shallow depth of field, f/1.8 bokeh" | 
+* * *
+### Rule 4 — Prompt length sweet spot: 50–150 words
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#rule-4--prompt-length-sweet-spot-50150-words)
+ * **Too short** (<30 words) → AI fills gaps with random choices
+ * **Too long** (>200 words) → Contradictions confuse the model, outputs degrade
+ * **Just right** (50–150 words) → Enough specificity without overloading
+
+* * *
+### Rule 5 — Always include negative constraints
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#rule-5--always-include-negative-constraints)
+Every pro prompt ends with what NOT to do:
+
+```
+"...no morphing faces, no extra fingers, no flickering, no unnatural motion blur, 
+no cartoonish saturation, no text overlays"
+
+```
+
+* * *
+## 🎥 Camera Movement Vocabulary (Copy-Paste Ready)
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#-camera-movement-vocabulary-copy-paste-ready)
+### Shots
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#shots) 
+| Term | Effect | 
+| --- | --- | 
+| `extreme wide shot (EWS)` | Establishes location, subject small in frame | 
+| `wide shot (WS)` | Full body, environment visible | 
+| `medium shot (MS)` | Waist up, conversational feel | 
+| `close-up (CU)` | Face/detail, emotional intimacy | 
+| `extreme close-up (ECU)` | Single detail (eye, hand, product) | 
+| `over-the-shoulder (OTS)` | POV feel, positions viewer | 
+| `bird's-eye view` | Overhead, dramatic scale | 
+| `low-angle shot` | Subject appears powerful/imposing | 
+| `Dutch angle` | Tilted frame, tension/unease | 
+### Movements
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#movements) 
+| Term | Effect | 
+| --- | --- | 
+| `static shot` | No movement, stable and formal | 
+| `dolly-in / push-in` | Slowly moves toward subject, builds intensity | 
+| `dolly-out / pull-back` | Reveals context, creates wonder | 
+| `pan left/right` | Horizontal rotation, follows action | 
+| `tilt up/down` | Vertical rotation, reveals height | 
+| `tracking shot` | Follows moving subject from side | 
+| `crane shot` | Rises or descends dramatically | 
+| `handheld / steadicam` | Slight shake = documentary realism | 
+| `orbital / arc shot` | Circles around subject 360° | 
+| `whip pan` | Fast horizontal blur, transitions | 
+* * *
+## 💡 Lighting Vocabulary
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#-lighting-vocabulary) 
+| Term | Mood / Effect | 
+| --- | --- | 
+| `golden hour` | Warm, romantic, cinematic | 
+| `blue hour` | Cool, melancholic, elegant | 
+| `Rembrandt lighting` | One side lit, triangle shadow on cheek, dramatic | 
+| `high-key lighting` | Bright, minimal shadows, commercial/upbeat | 
+| `low-key lighting` | Dark, high contrast, film noir | 
+| `backlit / rim lighting` | Glow around subject's edges, ethereal | 
+| `neon lighting` | Colorful, urban, cyberpunk | 
+| `soft diffused light` | Gentle, flattering, lifestyle | 
+| `hard directional light` | Sharp shadows, intense, editorial | 
+| `candlelight / firelight` | Warm, intimate, flickering | 
+| `overcast diffused` | Flat, even, documentary | 
+* * *
+## 🎨 Style & Aesthetic Keywords
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#-style--aesthetic-keywords)
+### Film Stock Aesthetics
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#film-stock-aesthetics) 
+| Term | Looks like | 
+| --- | --- | 
+| `Kodak 2383 film stock` | Warm, slightly desaturated, filmic | 
+| `Fuji Velvia` | Vivid, saturated, landscapes | 
+| `35mm grain` | Classic film texture | 
+| `16mm grain` | Indie film, more pronounced grain | 
+| `digital clean` | Crisp, modern, no grain | 
+### Color Grades
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#color-grades) 
+| Term | Mood | 
+| --- | --- | 
+| `teal and orange grade` | Hollywood blockbuster | 
+| `desaturated + high contrast` | Gritty, noir, drama | 
+| `warm golden tone` | Nostalgia, comfort, ads | 
+| `cool blue tones` | Corporate, tech, modern | 
+| `pastel color palette` | Dreamy, soft, lifestyle | 
+| `high saturation` | Commercial, energetic | 
+### Aesthetic References
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#aesthetic-references) 
+| Term | Style | 
+| --- | --- | 
+| `cinematic` | Film-quality, widescreen | 
+| `documentary style` | Handheld, raw, authentic | 
+| `commercial style` | Clean, polished, professional | 
+| `music video aesthetic` | Dynamic cuts, stylized | 
+| `hyperrealistic` | Indistinguishable from real footage | 
+| `anime style` | Japanese animated aesthetic | 
+| `stop motion` | Frame-by-frame puppet feel | 
+| `black and white` | Classic, timeless, artistic | 
+* * *
+## 🛠️ Platform-Specific Strategies
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#%EF%B8%8F-platform-specific-strategies)
+### Sora 2 (OpenAI) — "Camera-First" Language
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#sora-2-openai--camera-first-language)
+Sora 2 prioritizes temporal coherence. Describe **what changes over time** first.
+
+```
+Formula: [Camera move] + [Subject state change] + [Environment reaction]
+
+✅ "Slow push-in from medium to extreme close-up as the woman's expression shifts 
+from neutral to a subtle smile, city lights gradually blurring into bokeh behind her, 
+warm amber tones, cinematic 2.39:1 aspect ratio"
+
+```
+
+**Sora-specific tips:**
+ * Use "storyboard" input for multi-shot sequences
+ * Specify physics explicitly: "the ball's trajectory follows realistic arc under gravity"
+ * It handles complex action best — use it for physics-heavy scenes
+
+* * *
+### Runway Gen-4.5 — Keyframe + Motion Brush Workflow
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#runway-gen-45--keyframe--motion-brush-workflow)
+Runway is best when combined with its visual tools, not just text.
+
+```
+Formula: [Reference image] + [Motion direction] + [Scene extension]
+
+✅ "Extend this scene forward: the camera continues dollying right, 
+revealing a wider room with floor-to-ceiling bookshelves, 
+warm fireplace light warming the right side, 
+wood grain texture visible, dust motes floating in light shafts"
+
+```
+
+**Runway-specific tips:**
+ * Use **Motion Brush** to paint movement directions onto still images
+ * Use **Act-Two** for performance capture from live video
+ * Break long sequences into 5-second stitchable beats
+ * Works best with short, precise beats: `"hand reaches forward, fingers wrap around glass, lifts slowly"`
+
+* * *
+### Kling 2.6 (Kuaishou) — Short Beats + Lip-Sync
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#kling-26-kuaishou--short-beats--lip-sync)
+Kling is optimized for social-first content and long-duration video.
+
+```
+Formula: [Character description] + [Precise micro-action] + [Setting] + [Audio cue]
+
+✅ "Young woman with expressive eyes and shoulder-length dark hair, 
+laughing naturally while looking slightly off-camera, 
+outdoor cafe in soft afternoon light, 
+bokeh of green leaves behind her, 
+natural breeze, casual and authentic mood"
+
+```
+
+**Kling-specific tips:**
+ * Describe character features in detail — Kling maintains face consistency best
+ * Excellent for lip-sync — provide audio script as separate input
+ * For 1-2 minute videos, use **prompt chaining** (see below)
+ * Specify `"subtle micro-expressions"` for realistic human emotion
+
+* * *
+### Google Veo 3.1 — Audio-Visual Sync Language
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#google-veo-31--audio-visual-sync-language)
+Veo 3.1 natively generates audio, so describe the soundscape too.
+
+```
+Formula: [Visual scene] + [Audio environment] + [Camera] + [Style]
+
+✅ "A barista crafting a latte in a morning cafe, 
+steam hissing from the espresso machine, 
+coffee pouring sound, soft jazz in background, 
+medium close-up tilting down to the cup, 
+warm yellow light, documentary style, 4K"
+
+```
+
+**Veo-specific tips:**
+ * Describe ambient sounds, music style, and dialogue explicitly
+ * Use `"sync audio to visual"` to ensure matched timing
+ * Great for: cooking videos, nature, interviews, product demos
+
+* * *
+## 🔗 Advanced Technique: Prompt Chaining
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#-advanced-technique-prompt-chaining)
+For longer videos, break them into **stitchable beats** — short sequential prompts that each extend the previous scene.
+### Example — 30-second product ad broken into 6 beats:
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#example--30-second-product-ad-broken-into-6-beats)
+
+```
+Beat 1 (0-5s): 
+"Extreme close-up of hands opening a matte black box, 
+slow motion, soft studio light, premium unboxing aesthetic"
+
+Beat 2 (5-10s):
+"Continue: product (wireless headphones) lifted from box, 
+rotating slowly to reveal design, 
+shallow depth of field, focus pulls to product"
+
+Beat 3 (10-15s):
+"Cut to: person placing headphones over ears, eyes closed, 
+slight smile, sound waves visualized in soft glow around headphones"
+
+Beat 4 (15-20s):
+"Cut to: urban street, person walking confidently, 
+headphones visible, tracking shot from side, 
+bokeh city lights, golden hour"
+
+Beat 5 (20-25s):
+"Aerial pull-back showing person small in frame, 
+city scale revealed, music visualizer fades in overlay"
+
+Beat 6 (25-30s):
+"Product hero shot: headphones on minimal white surface, 
+360 orbit, logo appears, fade to white"
+
+```
+
+* * *
+## 🎯 Ready-to-Use Prompt Templates
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#-ready-to-use-prompt-templates)
+### 🏢 Corporate / Brand
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#-corporate--brand)
+
+```
+[Brand spokesperson / professional person description], [confident action], 
+in [modern office / branded environment], [camera: slow tracking or dolly-in], 
+[lighting: soft key + blue rim], cinematic, clean commercial aesthetic, 
+no text overlays, no extra limbs
+
+```
+
+### 🌿 Nature / Landscape
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#-nature--landscape)
+
+```
+[Specific landscape: waterfall / mountain / forest], [time of day], 
+[weather condition], [camera: wide establishing shot, slow push-in or tilt-up], 
+[lighting: golden hour / blue hour / storm light], 
+hyperrealistic, 4K, shallow depth of field on foreground element
+
+```
+
+### 🧑 Human Emotion / Portrait
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#-human-emotion--portrait)
+
+```
+[Person description: age, appearance, expression], [micro-action: slight smile / exhales slowly], 
+[environment blurred background], [camera: extreme close-up, static], 
+[lighting: Rembrandt or soft window light], 
+cinematic, shallow depth of field, film grain, 
+no morphing, no flickering
+
+```
+
+### 📱 Social Media / Short-Form
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#-social-media--short-form)
+
+```
+[Product or subject], [dynamic action: spinning / emerging / transforming], 
+[clean minimal background or high-contrast setting], 
+[camera: medium, slight zoom-in], 
+[lighting: studio or neon], 
+high saturation, energetic, 9:16 vertical format, 
+no text, social-first aesthetic
+
+```
+
+### 🌆 Urban / Cyberpunk / City
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#-urban--cyberpunk--city)
+
+```
+[Character or scene description] in [city at night: Tokyo / NYC / neon-lit street], 
+[rain / fog / steam from vents], 
+[camera: low-angle tracking shot], 
+[lighting: neon signs, orange streetlights, cool shadow zones], 
+cyberpunk aesthetic, shallow depth of field, 
+rain reflections on wet pavement, 
+no morphing, high detail
+
+```
+
+### 🍃 Product Demo
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#-product-demo)
+
+```
+[Product name + visual description] on [minimal surface / natural environment], 
+[specific motion: rotating / pouring / transforming], 
+[camera: macro / ECU + slow orbit], 
+[lighting: soft diffused studio / golden hour backlight], 
+premium commercial style, 4K, 
+no hands unless specified, no text
+
+```
+
+* * *
+## ❌ Common Mistakes to Avoid
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#-common-mistakes-to-avoid) 
+| Mistake | Problem | Fix | 
+| --- | --- | --- | 
+| "Make a cool video" | Too vague — random output | Specify subject + action + style | 
+| "Beautiful cinematic amazing stunning" | Adjective stacking wastes tokens | 1-2 strong descriptors max | 
+| Contradicting instructions | "Dark and moody but bright and colorful" | Pick one mood | 
+| No camera direction | AI defaults to static shot | Always specify camera movement | 
+| Forgetting negatives | Gets extra fingers, morphing faces | Always add negative constraints | 
+| 200+ word prompts | Contradictions confuse the model | Keep 50–150 words | 
+| Starting with setting | Setting gets priority over subject | Start with subject + action | 
+| Generic time-of-day | "At night" = any darkness | Specify: "blue hour", "neon-lit", "moonlit" | 
+* * *
+## 📊 Prompt Quality Checklist
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#-prompt-quality-checklist)
+Before generating, verify:
+ * Subject described specifically (not "a person" but "a 28-year-old man in grey suit")
+ * Action described with motion verb (not "walking" but "walks purposefully toward camera")
+ * Camera shot type specified (wide / medium / close-up / ECU)
+ * Camera movement specified (static / dolly / tracking / handheld)
+ * Lighting described (time of day OR lighting style)
+ * Style/aesthetic keyword included (cinematic / commercial / documentary)
+ * Negative constraints included
+ * Prompt is 50–150 words
+ * Most important elements are in first 30 words
+
+* * *
+## 🏆 Before vs After Examples
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#-before-vs-after-examples)
+### Example 1 — Person walking in city
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#example-1--person-walking-in-city)
+
+```
+❌ BEFORE:
+"A man walking in a city at night"
+
+✅ AFTER:
+"Confident man in his 30s, dark coat, walking purposefully through 
+neon-lit Tokyo street at night, rain on the pavement, 
+low-angle tracking shot at street level, 
+orange and teal neon reflections, 
+mist from a street vent, 
+cinematic, slow-motion, 24fps, shallow depth of field, 
+no morphing, no extra limbs"
+
+```
+
+### Example 2 — Product showcase
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#example-2--product-showcase)
+
+```
+❌ BEFORE:
+"A luxury perfume bottle"
+
+✅ AFTER:
+"Luxury amber glass perfume bottle on black marble surface, 
+slow 360-degree orbit, macro lens close-up, 
+soft backlight creating rim glow through the glass, 
+liquid visible inside, light refracting, 
+fine mist spray releasing in slow motion, 
+premium commercial aesthetic, 4K, 
+no text, no hands"
+
+```
+
+### Example 3 — Nature scene
+[](https://gist.github.com/syscraft906/44566294675ccf4e81c5f40a7f3de313#example-3--nature-scene)
+
+```
+❌ BEFORE:
+"A beautiful waterfall in the forest"
+
+✅ AFTER:
+"Majestic waterfall cascading into a turquoise pool deep in a temperate rainforest, 
+morning mist rising from water surface, 
+golden shafts of light filtering through dense forest canopy, 
+slow crane shot descending from canopy to water level, 
+sounds of rushing water and distant birds, 
+hyperrealistic 4K, Kodak film grain, 
+no people, no artificial elements"
+
+```
+
+* * *
+_Report generated: March 20, 2026_ 
+_Sources: LTX Studio Blog, TrueFan AI, Simplified.com, Envato Elements, Magic Prompt, Medium (Kristopher Dunham)_
+[ for free](https://gist.github.com/join?source=comment-gist) **to join this conversation on GitHub**. Already have an account? 
+## Footer
+[ ](https://github.com) © 2026 GitHub, Inc. 
+### Footer navigation
+ * 
+ * 
+ 
+ 
+ 
+ 
+ 
+ * Manage cookies 
+ * Do not share my personal information

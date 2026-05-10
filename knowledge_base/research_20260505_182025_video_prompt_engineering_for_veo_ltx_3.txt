@@ -1,0 +1,60 @@
+TYPE: trend_research
+TOPIC: video prompt engineering for veo/ltx
+SOURCE: https://veoprompt.org/veo-3.1-prompt-guide
+CRAWLED_AT: 2026-05-05T18:20:25
+
+[ Veo Prompt](https://veoprompt.org/)
+[PromptsPrompts](https://veoprompt.org/c/prompt)[Top RatedTop Rated](https://veoprompt.org/rankings)[GuidesGuides](https://veoprompt.org/blog)
+Sign In
+# Veo PromptMidjourney PMidjourney Prompts
+Explore high-quality prompts by model. Copy, adapt, and create images, videos, audio, and text faster.
+## Top Prompts
+Popular and editor-picked prompts worth starting with.
+[View more](https://veoprompt.org/rankings)
+### [360° Golden Perfume Orbit Veo 3.1 A luxurious macro close-up of a premium perfume bottle on a glossy black reflective surface, with the camera executing a smooth, continuous 360-degree orbit. Dramatic spotlights create shimmering golden highlights across the glass, enhanced by shallow depth of field and a high-end cosmetics aesthetic, accompanied by soft ambient tones. luxury productperfume showcasecinematic orbit ](https://veoprompt.org/p/360-golden-perfume-orbit)
+### [Premium Sparkling Water Commercial Veo 3.1 A luxurious 8-second cinematic commercial for a premium sparkling water bottle in a high-end kitchen. Features soft morning light, condensation details, macro focus on the label, satisfying pour, and minimalist piano music with subtle fizzing SFX. luxury product adsparkling water commercialcinematic kitchen ](https://veoprompt.org/p/premium-sparkling-water-commercial)
+### [Earth's Natural Wonders Montage AI Prompts A vivid textual description or refined script for a seamless cinematic montage showcasing Earth's greatest natural wonders, from glowing auroras and erupting volcanoes to majestic waterfalls, grand canyons, and vibrant coral reefs in an immersive documentary style. natural wonderscinematic montagenature documentary ](https://veoprompt.org/p/earth-natural-wonders-montage)
+### [Architectural Marvels Cinematic Montage Veo 3.1 A breathtaking cinematic montage showcasing ancient palaces, soaring skyscrapers, grand bridges, iconic landmarks, forgotten ruins, cathedral halls, and elegant gardens with smooth transitions, vivid lighting, and ultra-detailed textures in 4K travel documentary style. architectural montagecinematic landmarkstravel documentary ](https://veoprompt.org/p/architectural-marvels-cinematic-montage)
+## Veo 3.1
+[View more](https://veoprompt.org/model/veo-3-1)
+### [360° Golden Perfume Orbit Veo 3.1 A luxurious macro close-up of a premium perfume bottle on a glossy black reflective surface, with the camera executing a smooth, continuous 360-degree orbit. Dramatic spotlights create shimmering golden highlights across the glass, enhanced by shallow depth of field and a high-end cosmetics aesthetic, accompanied by soft ambient tones. luxury productperfume showcasecinematic orbit ](https://veoprompt.org/p/360-golden-perfume-orbit)
+### [Premium Sparkling Water Commercial Veo 3.1 A luxurious 8-second cinematic commercial for a premium sparkling water bottle in a high-end kitchen. Features soft morning light, condensation details, macro focus on the label, satisfying pour, and minimalist piano music with subtle fizzing SFX. luxury product adsparkling water commercialcinematic kitchen ](https://veoprompt.org/p/premium-sparkling-water-commercial)
+### [Architectural Marvels Cinematic Montage Veo 3.1 A breathtaking cinematic montage showcasing ancient palaces, soaring skyscrapers, grand bridges, iconic landmarks, forgotten ruins, cathedral halls, and elegant gardens with smooth transitions, vivid lighting, and ultra-detailed textures in 4K travel documentary style. architectural montagecinematic landmarkstravel documentary ](https://veoprompt.org/p/architectural-marvels-cinematic-montage)
+### [High-Energy Food Culture Montage Veo 3.1 A fast-paced ultra-cinematic montage of 30 ultra-short food clips flowing seamlessly with rhythmic chopping, sizzling, swirling, and torching actions, featuring dramatic transitions, ASMR audio, and vibrant culinary visuals from around the world. food montageculinary timelapseASMR cooking ](https://veoprompt.org/p/high-energy-food-culture-montage)
+## Seedance 2.0
+[View more](https://veoprompt.org/model/seedance-2-0)
+### [Character Swap Video Remix Seedance 2.0 A fun edited version of the reference video where the left character is replaced with the person from Image1, the right seated character with the person from Image2, text updated to xx and xx, and the second character flips the middle finger to camera during their turn. character swapvideo remixmiddle finger gesture ](https://veoprompt.org/p/character-swap-video-remix)
+### [Platinum Mecha Angel Transformation Seedance 2.0 A powerful 15-second cinematic one-take transformation in a burning school playground: a battle-worn protagonist crushes a holy crystal core, unleashes swirling divine feathers, and evolves into a majestic platinum mecha angel with massive golden wings, halo, and dual flaming blades. mecha angel transformationholy feathersdoomsday sci-fi ](https://veoprompt.org/p/platinum-mecha-angel-transformation)
+### [Doomsday Nano Armor Transformation Seedance 2.0 A cinematic 15-second one-take Hollywood sci-fi transformation sequence: a dignified man in a black trench coat walks through a chaotic doomsday highway, activates his crystal necklace, and undergoes a dramatic two-layer nano battle armor transformation while advancing against fleeing crowds and approaching zombies. nano armor transformationdoomsday sci-fiHollywood cinematic ](https://veoprompt.org/p/doomsday-nano-armor-transformation)
+### [Rainy Lake Monster Chain Devouring Seedance 2.0 A dramatic cinematic super wide-angle scene of a chaotic food chain battle on a stormy lake: shrimp, giant lobster, leopard fish, toothed shark, and ultimate armored monster dramatically leaping and swallowing each other in strict alternating sequence, ending with a massive splash freeze frame. monster battlechain predationrainy lake ](https://veoprompt.org/p/rainy-lake-monster-chain-devouring)
+## Nano Banana 2
+[View more](https://veoprompt.org/model/nano-banana-2)
+[ Anime Side Profile with Headphones Nano Banana 2 Modern anime vector illustration of a person from the reference photo transformed into a dramatic side profile with head tilted upward, eyes closed, wearing black over-ear headphones against a bold red minimalist background with clean cel shading and cinematic lighting. anime vector illustrationside profile portraitheadphones aesthetic ](https://veoprompt.org/p/anime-side-profile-headphones)
+[ Japan Side Stories City Life Poster Nano Banana 2 Anime-style digital poster in a GTA V-inspired comic grid featuring a young character between tradition and modernity, surrounded by vibrant Tokyo scenes including Shibuya Crossing, shrines, ramen shops, and neon alleys with nostalgic warmth. anime posterjapan city lifecomic grid art ](https://veoprompt.org/p/japan-side-stories-city-life-poster)
+[ Fictional Drivers License Close-Up Nano Banana 2 Detailed text description for a hyper-realistic close-up photograph of a fictional driver's license held by a hand, showcasing realistic security features, portrait, text data, and natural daylight lighting. drivers licenseclose-up photographyid document ](https://veoprompt.org/p/fictional-drivers-license-closeup)
+[ Gym Mirror Selfie with Victoria, Sabrina & Selena Nano Banana 2 Detailed text description of a brightly lit gym mirror selfie featuring Victoria Justice, Sabrina Carpenter, and Selena Gomez in workout attire, posing together while taking a selfie with a smartphone. celebrity selfiegym workoutmirror photo ](https://veoprompt.org/p/gym-mirror-selfie-victoria-sabrina-selena)
+## GPT Image 2
+[View more](https://veoprompt.org/model/gpt-image-2)
+[ Clumsy Scribbly MS Paint Redraw GPT Image 2 Redraws any attached image into the most clumsy, scribbly, and utterly pathetic MS Paint-style drawing on a white background. The result is vaguely similar yet awkwardly off, with confusing low-quality pixel-by-pixel details that emphasize how ridiculously bad it is. ms paint redrawclumsy scribblelow quality drawing ](https://veoprompt.org/p/clumsy-scribbly-ms-paint-redraw)
+[ High-End Premium Advertising Illustration GPT Image 2 A polished, modern commercial illustration of a product or subject, featuring vibrant premium colors, clean composition, soft studio lighting, and a minimal yet impactful brand-focused aesthetic. premium advertisingvibrant color palettestudio lighting ](https://veoprompt.org/p/high-end-premium-advertising-illustration)
+[ Anime Last Supper: Goku Edition GPT Image 2 A vibrant anime-style recreation of The Last Supper featuring Goku seated prominently at the center, surrounded by iconic anime characters in a dramatic gathering. anime styleepic gatheringiconic characters ](https://veoprompt.org/p/anime-last-supper-goku)
+[ Ancient Artifact Museum Infographic GPT Image 2 A hyper-realistic premium museum-style infographic featuring an ancient artifact as the powerful central focal point, surrounded by detailed historical explanations, maps, timelines, comparisons, and dramatic cinematic lighting in a clean, scientific documentary layout worthy of a world-class exhibition cover. museum infographicancient artifactarchaeological discovery ](https://veoprompt.org/p/ancient-artifact-museum-infographic)
+[ Veo Prompt](https://veoprompt.org/)
+Discover, Share, and Create with the Best AI Prompts
+### Directory
+ 
+ 
+ 
+ 
+ 
+### AI ASMR
+ 
+ 
+ 
+ 
+### Friend Links
+[nano banana pro](https://banananano.net/ "nano banana pro")[wan 2 video](https://wan2.video/ "wan 2 video")[A2A vs MCP](https://a2a-mcp.org/ "A2A vs MCP")[Image to Pixel Art](https://image-pixel.com/ "Image to Pixel Art")
+[ ](https://www.producthunt.com/products/veo-prompt?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-veo-prompt)[ ](https://dang.ai/tool/ai-video-prompt-generator-veoprompt-org)[ ](https://showmebest.ai/ai-tools/veoprompt-org)
+[About](https://veoprompt.org/about) [Refund Policy](https://veoprompt.org/refund)
+© 2026 Veo Prompt. All Rights Reserved.
+[🇺🇸English](https://veoprompt.org/)[🇨🇳简体中文](https://veoprompt.org/zh)[🇹🇼繁體中文](https://veoprompt.org/zh-tw)[🇯🇵日本語](https://veoprompt.org/ja)[🇰🇷한국어](https://veoprompt.org/ko)

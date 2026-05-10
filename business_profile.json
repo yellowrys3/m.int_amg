@@ -1,0 +1,25 @@
+{
+  "practice_name": "Butterfly Dental Care",
+  "location": "San Jose, CA",
+  "audience": "local families and adults looking for comfortable, modern dental care",
+  "tone": "warm, professional, reassuring, and easy to understand",
+  "primary_cta": "Book an appointment with Butterfly Dental Care",
+  "website": "https://www.butterflydental.net/",
+  "services": [
+    "general dentistry",
+    "cosmetic dentistry",
+    "restorative dentistry",
+    "dental implants",
+    "Invisalign",
+    "children's dentistry",
+    "laser dentistry",
+    "teeth whitening",
+    "veneers"
+  ],
+  "content_guardrails": [
+    "Do not promise guaranteed medical outcomes.",
+    "Do not diagnose dental conditions.",
+    "Encourage patients to book a consultation for personalized advice.",
+    "Keep claims grounded in retrieved practice and research context."
+  ]
+}

@@ -1,0 +1,35 @@
+TYPE: prompt_playbook
+TOPIC: ltx_prompt_engineering
+SOURCE: https://docs.ltx.video/
+CRAWLED_AT: 2026-05-06T00:00:00
+
+# LTX Prompt Playbook (Official Docs Summary)
+
+This document captures prompt guidance patterns from official LTX documentation and prompt guides.
+
+## Core principles
+
+- Prompt quality strongly affects output quality for text-to-video generation.
+- Use detailed, structured prompts with explicit action flow.
+- Specify camera behavior and scene progression, not only static appearance.
+- Keep continuity clear so motion intent is unambiguous.
+
+## Strong prompt anatomy
+
+1. Scene setup:
+   setting, subject, and visual style baseline.
+2. Motion/action:
+   what the subject does, in what order.
+3. Camera direction:
+   pan, dolly, close-up, or static choices.
+4. Audio/mood:
+   describe ambience and soundtrack tone when needed.
+5. Constraints:
+   state what to avoid so the generation stays on-brief.
+
+## Reliability rules for m.int marketing prompts
+
+- Use explicit short runtime constraints and vertical framing when required.
+- Keep dental visuals clean and non-graphic.
+- Avoid text-heavy expectations inside scene imagery; use planned overlay slots.
+- Reinforce CTA timing in the final shot.

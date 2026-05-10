@@ -1,0 +1,35 @@
+TYPE: prompt_playbook
+TOPIC: veo_prompt_engineering
+SOURCE: https://deepmind.google/en/models/veo/prompt-guide/
+CRAWLED_AT: 2026-05-06T00:00:00
+
+# Veo Prompt Playbook (Official Guide Summary)
+
+This document captures practical prompt rules from the official Veo prompt guide and model pages.
+
+## Core principles
+
+- Describe the subject, setting, action, and visual style in clear plain language.
+- Use directorial detail: shot type, camera movement, framing, and mood.
+- Keep one prompt focused on one coherent visual moment.
+- Prefer concrete visual details over abstract adjectives.
+
+## Strong prompt anatomy
+
+1. Subject and environment:
+   who/what is in frame and where the scene happens.
+2. Action:
+   what changes over time in the shot.
+3. Cinematic language:
+   camera distance, angle, and motion.
+4. Lighting and aesthetic:
+   time of day, color palette, and tone.
+5. Output intent:
+   pacing and emotional feel for the final clip.
+
+## Reliability rules for m.int marketing prompts
+
+- Keep shots simple and readable for short-form vertical clips.
+- Use patient-safe and non-diagnostic language.
+- Avoid unsupported claims and guaranteed outcomes.
+- Specify legible text overlay moments if text is required.

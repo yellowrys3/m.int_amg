@@ -1,0 +1,41 @@
+TYPE: prompt_playbook
+TOPIC: shared_cinematic_rules_veo_ltx
+SOURCE: https://deepmind.google/models/veo/
+CRAWLED_AT: 2026-05-06T00:00:00
+
+# Shared Cinematic Rules for Veo + LTX (m.int Contract)
+
+This playbook defines cross-model prompt defaults for short dental marketing videos.
+
+## Prompt structure contract
+
+Always provide:
+
+1. Objective
+2. Format/Duration
+3. Scene Breakdown
+4. Camera/Lighting/Motion
+5. Audio/Mood
+6. On-screen Text
+7. Final CTA Frame
+8. Negative Constraints
+
+## Format defaults
+
+- Aspect ratio: 9:16 vertical.
+- Runtime target: 8-12 seconds.
+- Keep scene plan concise and production-ready.
+
+## Scene and motion guidance
+
+- Limit scene count to short, coherent beats.
+- Use clear camera verbs: push-in, pan, static close-up, rack focus.
+- Keep lighting simple, natural, and consistent with healthcare tone.
+
+## Safety and brand constraints
+
+- No diagnosis language.
+- No guaranteed outcomes or cure language.
+- No unsupported promotions or invented claims.
+- No graphic dental imagery.
+- CTA should invite consultation, booking, or direct question.
